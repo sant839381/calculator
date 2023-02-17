@@ -1,0 +1,49 @@
+/* // author @ Santosh Gangwar
+// version 1.0.0
+// date 17/2/2023
+*/
+
+body{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section{ 
+    width: 400px;
+    height: 550px;
+background: #22252D;
+    box-shadow: 4px 4px 30px rgba(red, green, blue, alpha);
+    border-radius: 30px;
+
+}
+.buttons{ 
+
+   display: flex;
+   flex-wrap: wrap;
+    justify-content: centers; 
+    padding-left: 23px;
+}
+button{ 
+     
+    width: 67px;
+    height: 50px; 
+    
+    border-radius: 10px;
+    border: 0;
+    box-shadow: -8px -8px 15px rgba(255, 255,255, 0.1),5px 8px 15px rgba(0, 0, 0, .4);
+  background: transparent;
+  color: #fff;
+  margin: 10px;
+  font-size: 20px;
+}
+form input{ 
+    width: 98%;
+    height: 150px;
+    background-color: black;
+    color: white;
+    margin-bottom: 30px; 
+    font-size: 50px;
+    font-weight: 600;
+    border-radius: 30px ;
+}
